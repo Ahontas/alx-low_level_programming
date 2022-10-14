@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<unistd.h>
 /**
- *
- * main - print err message
+ * main - print error message
  * Return:1(Failed)
  */
 int main(void)
