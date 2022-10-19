@@ -1,7 +1,9 @@
 #include "main.h"
 #include<stdio.h>
 /**
- * @n: print_to_98 - print to 98
+ * print_to_98- printing to 98
+ *
+ * @n: parameter to check
  * start at n point
  * Return:0
  */
