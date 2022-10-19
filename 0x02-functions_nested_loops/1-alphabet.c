@@ -1,19 +1,16 @@
 #include "main.h"
 /**
- *main - print_alphabet_x10
+ *print_alphabet - print all alphabet in small letter
  *
  * Return:0
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-	int i, j;
+	int x;
 
-	for (i = 0; i < 10; i++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		for (j = 'a'; j <= 'z'; j++)
-		{
-			_putchar(j);
-		}
-		_putchar('\n');
+		_putchar(x);
 	}
+	_putchar('\n');
 }
