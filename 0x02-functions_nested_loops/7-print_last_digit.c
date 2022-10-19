@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - print last digit
- * Parameter:l
+ * @l: Parameter of focus
  *
  * Return:the last digit of l
  */

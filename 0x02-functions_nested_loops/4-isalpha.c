@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - check for character
- * parameter to check:c
+ * @c: parameter to check
  * Return:0 or 1
  */
 int _isalpha(int c)

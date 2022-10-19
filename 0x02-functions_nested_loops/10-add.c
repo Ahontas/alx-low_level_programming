@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * add - add two numbers
- * number to be added: x and y
+ * @x: addition
+ * @y: addition
  * Return:0
  */
 int add(int x, int y)

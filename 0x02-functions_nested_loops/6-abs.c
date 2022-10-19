@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - print absolute
- * parameter to modify:abs
+ * @abs: parameter to modify is abs
  * Return: abs value of parameter
  */
 int _abs(int abs)
