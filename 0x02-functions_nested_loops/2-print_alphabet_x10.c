@@ -1,16 +1,19 @@
 #include "main.h"
 /**
- * _islower - check for lowerCAse
- * @c:The character to chec
+ * print_alphabet_x10 - print 10x alphabet
  *
- * Return:0 or 1
+ * Return:0
  */
-
-int _islower(int c)
+void print_alphabet_x10(void)
 {
-	if (c >= 'a' && c <= 'z')
+	int i, j;
+
+	for (i = 0; i < 10; i++)
 	{
-		return (1);
+		for (j = 'a'; j <= 'z'; j++)
+		{
+			_putchar(j);
+		}
+		_putchar('\n');
 	}
-	return (0);
 }
