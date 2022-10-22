@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_diagonal - draws diagonal line
  * @n: length of diagonal line
@@ -11,7 +12,7 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 	} else
 	{
 		for (i = 0; i < n; i++)
