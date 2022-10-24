@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rest_to_98 - reset value to 98
+ * reset_to_98 - reset value to 98
  * @n: value to be changed
  * Return 0
  */
