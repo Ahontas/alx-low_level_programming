@@ -2,7 +2,7 @@
 /**
  * _strlen - check for lenth of word
  * @s: variable to check
- * Return length of @s
+ * Return: length of @s
  */
 int _strlen(char *s)
 {
