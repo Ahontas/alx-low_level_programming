@@ -2,8 +2,8 @@
 
 /**
  * _strcat - appeends to a string
- * @dest:destination
  * @src:source
+ * @dest:destination
  * Return:char pointer
  */
 
