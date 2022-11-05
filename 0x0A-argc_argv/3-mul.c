@@ -23,5 +23,4 @@ int main(int argc, char **argv)
 		printf("%i\n", multiplication);
 	}
 	return (0);
-}
-		
+}		
