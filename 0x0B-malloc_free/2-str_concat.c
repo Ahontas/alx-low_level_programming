@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- *  str_concat - concatenates two strings.
- *  @s1: first string.
- *   @s2: second string.
- *   Return: pointer of an array of chars
+ * str_concat - concatenates two strings.
+ * @s1: first string.
+ * @s2: second string.
+ * Return: pointer of an array of chars
  */
 
 char *str_concat(char *s1, char *s2)
@@ -15,6 +15,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		s1 = "";
+
 	if (s2 == NULL)
 		s2 = "";
 
@@ -27,6 +28,7 @@ char *str_concat(char *s1, char *s2)
 		free(strout);
 		return (NULL);
 	}
+
 	for (k = 0; k < i; k++)
 		strout[k] = s1[k];
 
