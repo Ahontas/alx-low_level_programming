@@ -1,1 +1,1 @@
-Debugging repo readme
+Typedef and structures
