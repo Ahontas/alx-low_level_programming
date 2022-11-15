@@ -6,9 +6,9 @@ char *_strcpy(char *dest, char *src);
 
 /**
  * new_dog - function
- *  @name: name of dog
- *  @age: age of new dog
- *  @owner: owner of new dog
+ *  @name: name of doggo
+ *  @age: age of new doggo
+ *  @owner: owner of new doggo
  *  Description: function to create a new dog. Store copy of name & owner
  *  Retur: ptr, null if fail
  */
@@ -49,6 +49,25 @@ dog_t *new_dog(char *name, float age, char *owner)
 	doggo->owner = neowner;
 
 	return (doggo);
+}
+
+/**
+ * _strlen - function
+ * Description: function that returns the length of a string
+ * @s: first operand & pointer
+ * Return: Always 0
+ */
+
+int _strlen(char *s)
+{
+	int index = 0;
+
+	while (*s != '\0')
+	{
+		index++;
+		s++;
+	}
+	return (index);
 }
 
 /**
