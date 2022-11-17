@@ -3,12 +3,12 @@
 /**
  * int_index - searches for an integer
  * @array: input integer array.
- *  @size: size of the array.
- *  @cmp: pointer to the function to be used
- *  Description: to compare values.
- *  Return: index of the first element for which the cmp function
- *   doesn't return 0
- *  Return: -1. If size <= 0 : If element matches.
+ * @size: size of the array.
+ * @cmp: pointer to the function to be used
+ * Description: to compare values.
+ * Return: index of the first element for which the cmp function
+ * doesn't return 0
+ * Return: -1. If size <= 0 : If element matches.
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
