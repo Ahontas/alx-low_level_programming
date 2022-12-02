@@ -8,25 +8,8 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int ncopy = n;
-	int count;
+	if (n > 1)
+		print_binary(n >> 1);
 
-	if (n == 0)
-		_putchar('0');
-
-	while (ncopy)
-	{
-		count++;
-		ncopy = ncopy >> 1;
-	}
-
-	count--;
-	for ( count >= 0; count--;)
-	{
-		if ((n >> count) & 1)
-			_putchar('1');
-
-		else
-			_putchar('0');
-	}
+	_putchar((n & 1) + '0');
 }
