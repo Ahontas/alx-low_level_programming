@@ -13,16 +13,18 @@ void print_binary(unsigned long int n)
 
 	if (n == 0)
 		_putchar('0');
+
 	while (ncopy)
 	{
 		count++;
 		ncopy = ncopy >> 1;
 	}
+
 	count--;
-	for (; count >= 0; count--)
+	for ( count >= 0; count--;)
 	{
 		if ((n >> count) & 1)
-			_puchar('1');
+			_putchar('1');
 
 		else
 			_putchar('0');
